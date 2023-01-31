@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Noah J Asstafan">
+    <meta name="Description" content="W3 Demo">
+
+    <Title>W3 Demo | ABOUT</Title>
+
+    <!-- in-document styling below -->
+    <style>
+        /*write in CSS here*/
+
+        /*selecting by tag type*/
+
+        div{/*applies to all divs on page*/
+
+            border:1px solid black ;
+            padding:10px;
+            margin:5px;
+
+        }
+
+        /*select by #ID name*/
+        #wrapper{
+             background-color:darkgray;
+             width:900px;
+             margin:auto;
+
+        }
+
+        .fancy-font{
+
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+        }
+
+        .border{
+            border: 1px solid maroon;
+
+        }
+
+        #nav {
+
+            border:3px solid maroon;
+            text-align: center;
+
+        }
+
+        .pic{
+
+            width: 500px;
+            padding:5px;
+            box-shadow: 0 0 8px black;
+        }
+
+
+    </style>
+</head>
+<body style="background:gray">
+
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="fancy-font"><em>The Last Of Us (HBO)</em></h1>
+
+        </div><!--/ #header-->
+
+    <div id="Nav">
+       
+       <!-- Relative Links : recources that live within the root project directory -->
+        <a href="index.html">| Home | </a>
+        <a href="about.html">| About | </a>
+        <a href="people.html">| People | </a>
+        <a href="places.html">| Places | </a>
+
+        <br>
+
+        <!-- Exernal Link : Outside of the website/domain; needs to be an ABSOLUTE path (starts with https) -->
+        <a href="https://www.hbo.com/the-last-of-us">| Officical HBO Site</a>
+
+        <!-- In-Page Jump Link : jumps to a section of this current page -->
+        <a href="">| Bottom of Page |</a>
+
+
+    </div><!--/ #Nav-->
+
+    <div id="main-content" class="border"></div>
+        <h2>Content area for the <b>ABOUT</b>Page</h2>
+
+    </div><!--/ #main-content-->
+
+    <div id="Footer" class="border">
+
+        <p>&copy; N. J Asstafan | SE111.22 | Winter 2023</p>
+
+        <br>
+
+        <a href="index.html#header">go to HOME PAGE</a>
+
+    </div><!--/ #Footer-->
+    
+</body>
+</html>

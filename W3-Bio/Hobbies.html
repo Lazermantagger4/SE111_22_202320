@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Noah J Asstafan" >
+    <meta name="description" content="W2D2 Bio " >
+    
+    <title>W2 | Bio</title>
+
+    <!-- IN DOCUMENT -->
+    <style>
+        /*in here we write in CSS*/
+        /*SELECTING in CSS & Javascript: select specific element(S) on a page
+            *by ELEMENT type      ex:body,div, p 
+            *by ID attribute      ex: #wrapper, #nav, #footer
+            *by CLASS attribute   ex: coming in week 3
+
+        */
+
+
+        div{
+            border:1px solid black;
+            padding:10px; /*adds space between content & border of element*/
+            margin:5px; /*adds space between element and others*/
+        }
+        #nav, #footer {
+            background-color:lightgray;
+        }
+    </style>
+
+
+
+
+    </head>
+<body style="background-color:gray">
+<div><!--this is the wrapper, and it wraps around all content -->
+
+    <!-- Header -->
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="fancy-font"><em>Best Tank Ever Top 500 Aluminum Foil</em></h1>
+
+        </div><!--/ #header-->
+    
+        <!-- NAV -->
+        <div id="nav">
+
+        <!-- href= makes it into a link -->
+        <!-- target=_blank:makes the link open in a new tab -->
+        <!-- EXTERNAL LINK: a link to a page outside of your website -->
+            <a href="https://overwatch.blizzard.com/en-us/" target="_blank">Visit Overwatch 2</a>
+
+        <!--internal link: a link to a page inside of your website/ root folder-->
+        <!-- RELATIVE PATH -->
+        
+
+        <!--In-Page Jump Link-->
+            <a href="index.html">BIO</a>
+            <a href="schools.html">SCHOOLS</a>
+            <a href="Hobbies.html">HOBBIES</a>
+            <a href="#footer">Go to Bottom</a>
+        
+        </div>
+
+        <!--HOBBIES SECTION-->
+        <div id="hobbies">
+
+            <h2>Hobbies</h2>
+
+            <ul>
+                <li>Hockey<img src="https://thumbs.dreamstime.com/z/tuukka-rask-makes-save-22373639.jpg" alt="Picture of a Goalie making a save" style="width:500px"></li>
+                <li>Gaming<img src="https://goama.com/wp-content/uploads/2021/12/areyouagamer.png" alt="Piture of all types of gaming styles" style="width:500px"></li>
+                <li>Watching Anime<img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/01/Featured-Koro-Sensei-Carrying-A-Missle.jpg" alt="Pirture from an Anime called Assassinations classroom" style="width:500px"></li>
+                <li>Going to School<img src="https://careersherpa.net/wp-content/uploads/2009/09/MP900439398.jpg" alt="Picture of a kid walking into school" style="width:500px"></li>
+             </ul>
+
+
+
+         </div><!--/#bio-->
+
+    <!--FOOTER SECTION-->
+        <div id="footer">
+
+            <a href="#nav">Back to the Top</a>
+            <br>
+            <p>&copy; N Asstafan | SE111 | Winter 2023</p>
+
+
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
