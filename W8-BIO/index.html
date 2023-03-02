@@ -36,13 +36,13 @@
     <script>
 	
 		//Store the elements (tags) in variables
-		
+		var frame = document.querySelector(`#first`)
 
 		//Make an array to store the people
-		
+		var people = []
 
 		//Make the button clickable. When clicked it calls the calcAndDisplay function.
-		
+		document.querySelector(`#submit`).addEventListener(`click`, calcAndDisplay)
 		
 		/*-----------------------------------------------------
 		Will add objects into the people array. 
@@ -120,7 +120,7 @@
 
 				//log the output string
 				//replace the outputDiv's inner HTML with the output string
-				
+				document.querySelector(`#output`).innerHTML = output
 
 
 
